@@ -4,7 +4,8 @@ import Page from 'pages/Page';
 export default function Home() {
   return (
     <Page>
-      <Chat />
+        <><h1>TESTE</h1>
+      <Chat /></>
     </Page>
   );
 }

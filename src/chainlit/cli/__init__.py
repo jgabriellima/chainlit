@@ -22,7 +22,7 @@ def cli():
 # Define the function to run Chainlit with provided options
 def run_chainlit(target: str, watch=False, headless=False, debug=False):
     DEFAULT_HOST = "0.0.0.0"
-    DEFAULT_PORT = 8000
+    DEFAULT_PORT = 5173
     host = os.environ.get("CHAINLIT_HOST", DEFAULT_HOST)
     port = int(os.environ.get("CHAINLIT_PORT", DEFAULT_PORT))
 
